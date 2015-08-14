@@ -1,0 +1,21 @@
+{
+  "env": "dev",
+  "tmpdir": "../../temp",
+  "mysql": {
+    "host": "192.168.1.120",
+    "username": "root",
+    "password": "yliyun123"
+  },
+  "redis": {
+    "host": "192.168.1.120",
+    "port": 6379
+  },
+  "fdfs": {
+    "trackers": [
+      {
+        "host": "192.168.1.120",
+        "port": 22122
+      }
+    ]
+  }
+}
